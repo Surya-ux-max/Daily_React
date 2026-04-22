@@ -4,9 +4,9 @@ let age = 25;
 const Role = "AI Engineer";
 
 console.log("Hello Developer! Welcome to learning JavaScript.");
-console.log(name);
-console.log(age);
-console.log(Role);
+console.log(typeof name);       // typeof in javascript will give the data type of the variable used in the console log
+console.log(typeof age);        // console.log will display the message the user is entering
+console.log(typeof Role);
 
 
 console.log("Name: " + name);
