@@ -12,3 +12,9 @@ console.log(typeof Role);
 console.log("Name: " + name);
 console.log("Age: " + age);
 console.log("Role: " + Role);
+
+console.log(10+10); // this will give us the sum of 10 and 10 which is 20
+console.log(10-5);
+console.log(10*5);
+console.log(10/2);
+console.log(10%3); // this will give us the remainder of 10 divided by 3 which is 1
