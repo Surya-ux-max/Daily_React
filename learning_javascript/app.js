@@ -33,9 +33,17 @@
 //     console.log("number : ",i);
 // }
 
-let myname = "Suri";
-greet(myname);
-function greet(myname) {
-    console.log("Hello " + myname + "! Welcome to learning JavaScript.");
+// let myname = "Suri";
+// greet(myname);
+// function greet(myname) {
+//     console.log("Hello " + myname + "! Welcome to learning JavaScript.");
+// }
+
+let name;
+Greet("suri");
+Greet(123);
+Greet("Iron Man");
+function Greet(name) {
+    console.log("Hello " + name + "! Welcome to learning JavaScript.");
 }
 
