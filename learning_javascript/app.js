@@ -27,3 +27,8 @@ if(ageofsurya > 18){
 else{
     console.log("Surya is a minor.");
 }
+
+let number = 10;
+for( let i = 1;i<=number;i++){
+    console.log("number : ",i);
+}
