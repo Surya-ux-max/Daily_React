@@ -47,10 +47,23 @@
 //     console.log("Hello " + name + "! Welcome to learning JavaScript.");
 // }
 
-let name;
-Greet("suri");
-Greet(123);
+// let name;
+// Greet("suri");
+// Greet(123);
 
-function Greet(name){
-    console.log(name);
-}
+// function Greet(name){
+//     console.log(name);
+// }
+
+// let name;
+// Greet("suri");
+// Greet(123);
+
+// void Greet(char name[]){
+//     console.log(name);
+// }
+
+const numbers = [1,2,3,4,5];
+console.log(numbers[0]); // this will give us the first element of the array which is 1
+console.log(numbers);
+console.log(numbers.length);
