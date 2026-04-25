@@ -64,6 +64,11 @@
 // }
 
 const numbers = [1,2,3,4,5];
-console.log(numbers[0]); // this will give us the first element of the array which is 1
-console.log(numbers);
-console.log(numbers.length);
+// console.log(numbers[0]); // this will give us the first element of the array which is 1
+// console.log(numbers);
+// console.log(numbers.length);
+
+numbers.pop(); // this will remove the last element of the array which is 5
+numbers.push(6); // this will add the element 6 to the end of the array
+console.log(numbers); // this will give us the updated array which is [1,2,3,4,6]
+
