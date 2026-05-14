@@ -68,7 +68,17 @@ const numbers = [1,2,3,4,5];
 // console.log(numbers);
 // console.log(numbers.length);
 
-numbers.pop(); // this will remove the last element of the array which is 5
-numbers.push(6); // this will add the element 6 to the end of the array
-console.log(numbers); // this will give us the updated array which is [1,2,3,4,6]
+// numbers.pop(); // this will remove the last element of the array which is 5
+// numbers.push(6); // this will add the element 6 to the end of the array
+// console.log(numbers); // this will give us the updated array which is [1,2,3,4,6]
 
+console.log(numbers[0]);
+console.log(numbers[1]);
+console.log(numbers[2]);
+console.log(numbers[3]);
+console.log(numbers[4]);
+console.log(numbers.length);
+
+numbers.push(7); // this will add the element 7 to the end of the array and return the new length of the array which is 6
+numbers.pop();
+console.log(numbers); // this will remove the last element of the array which is 7 and return the removed element which is 7
