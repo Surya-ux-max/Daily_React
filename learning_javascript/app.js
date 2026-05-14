@@ -90,4 +90,5 @@ const person = {
     role: "AI engineer",
 };
 
-console.log(person.name); // this will give us the value of the name property which is "Suryaprakash"
+console.log(person.name); 
+console.log(person.role);// this will give us the value of the name property which is "Suryaprakash"
